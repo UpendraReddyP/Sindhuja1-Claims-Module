@@ -27,7 +27,7 @@ services:
       - DB_NAME=claims_db
       - DB_HOST=postgres
       - DB_PORT=5432
-      - PORT=3036
+      - PORT=3204
 
   employee-claims:
     build: ./Employee-claims
